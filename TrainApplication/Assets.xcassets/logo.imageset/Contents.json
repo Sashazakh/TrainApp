@@ -1,0 +1,15 @@
+{
+  "images" : [
+    {
+      "filename" : "horizontal_on_white_by_logaster.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "preserves-vector-representation" : true
+  }
+}
