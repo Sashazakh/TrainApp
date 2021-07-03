@@ -60,6 +60,39 @@ class UserViewModel: UserViewModelProtocol {
                 print("error")
             }
             ).disposed(by: bag)
+        case .updateAge:
+            guard let age = Int(value) else {
+                return
+            }
+            userService.updateAge(id: userId, age: age).subscribe(onSuccess: { [weak self] user in
+                guard let self = self else { return }
+                self.userDataSibject.onNext(user)
+            }, onError: { error in
+                print("error")
+            }
+            ).disposed(by: bag)
+        case .updateWeight:
+            guard let weight = Double(value) else {
+                return
+            }
+            userService.updateWeight(id: userId, weight: weight).subscribe(onSuccess: { [weak self] user in
+                guard let self = self else { return }
+                self.userDataSibject.onNext(user)
+            }, onError: { error in
+                print("error")
+            }
+            ).disposed(by: bag)
+        case .updateHeight:
+            guard let height = Int(value) else {
+                return
+            }
+            userService.updateHeight(id: userId, height: height).subscribe(onSuccess: { [weak self] user in
+                guard let self = self else { return }
+                self.userDataSibject.onNext(user)
+            }, onError: { error in
+                print("error")
+            }
+            ).disposed(by: bag)
         }
     }
 }

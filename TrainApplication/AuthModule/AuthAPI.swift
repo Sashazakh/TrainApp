@@ -29,7 +29,8 @@ extension AuthAPI: TargetType {
             return "/auth"
         }
     }
-        var method: Moya.Method {
+    
+    var method: Moya.Method {
         switch self {
         case .isLoginExists, .checkPasswrod, .getAuthUser:
             return .get
@@ -50,8 +51,6 @@ extension AuthAPI: TargetType {
             return .requestParameters(
                 parameters: ["id": id],
                 encoding: URLEncoding.queryString)
-        default:
-            return .requestPlain
         }
     }
     

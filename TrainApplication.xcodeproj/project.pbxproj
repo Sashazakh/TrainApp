@@ -46,6 +46,23 @@
 		13BADD89264442F800E1A60B /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BADD88264442F800E1A60B /* UserViewModel.swift */; };
 		13BADD8C26446C4600E1A60B /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BADD8B26446C4600E1A60B /* UserService.swift */; };
 		13BADD8F26446C6600E1A60B /* UserAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BADD8E26446C6600E1A60B /* UserAPI.swift */; };
+		13BADD92264532FC00E1A60B /* FoodViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BADD91264532FB00E1A60B /* FoodViewModel.swift */; };
+		13BADD952645347E00E1A60B /* WeekPlan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BADD942645347E00E1A60B /* WeekPlan.swift */; };
+		13BADD98264534F700E1A60B /* DayPlan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BADD97264534F700E1A60B /* DayPlan.swift */; };
+		13BADD9B26454EE000E1A60B /* DayCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BADD9A26454EE000E1A60B /* DayCell.swift */; };
+		13BADD9E26455B6500E1A60B /* FoodService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BADD9D26455B6500E1A60B /* FoodService.swift */; };
+		13BADDA226455C0F00E1A60B /* FoodAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BADDA126455C0F00E1A60B /* FoodAPI.swift */; };
+		13BADDAA2646C0F200E1A60B /* DayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BADDA92646C0F200E1A60B /* DayViewController.swift */; };
+		13BADDAD2646C13A00E1A60B /* DayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BADDAC2646C13A00E1A60B /* DayViewModel.swift */; };
+		13BADDB02646C17500E1A60B /* DayAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BADDAF2646C17500E1A60B /* DayAssembly.swift */; };
+		13BADDB32646C46C00E1A60B /* FoodRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BADDB22646C46C00E1A60B /* FoodRouter.swift */; };
+		13BADDB62647DA3A00E1A60B /* UserFoodResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BADDB52647DA3A00E1A60B /* UserFoodResponse.swift */; };
+		13BADDB92647DA8000E1A60B /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BADDB82647DA8000E1A60B /* Food.swift */; };
+		13BADDBC2647DE8100E1A60B /* FoodCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BADDBB2647DE8100E1A60B /* FoodCell.swift */; };
+		13BADDBF26480A6B00E1A60B /* AddDayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BADDBE26480A6A00E1A60B /* AddDayViewController.swift */; };
+		13BADDC42648151C00E1A60B /* AddDayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BADDC32648151C00E1A60B /* AddDayViewModel.swift */; };
+		13BADDC72648158900E1A60B /* AddDayAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BADDC62648158900E1A60B /* AddDayAssembly.swift */; };
+		13BADDCB264815E500E1A60B /* DayRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BADDCA264815E500E1A60B /* DayRouter.swift */; };
 		B21CF8EF2C971B956BA8F5B5 /* Pods_TrainApplication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A08CC8702E4E8ECCF7596599 /* Pods_TrainApplication.framework */; };
 /* End PBXBuildFile section */
 
@@ -91,6 +108,23 @@
 		13BADD88264442F800E1A60B /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
 		13BADD8B26446C4600E1A60B /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
 		13BADD8E26446C6600E1A60B /* UserAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAPI.swift; sourceTree = "<group>"; };
+		13BADD91264532FB00E1A60B /* FoodViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodViewModel.swift; sourceTree = "<group>"; };
+		13BADD942645347E00E1A60B /* WeekPlan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekPlan.swift; sourceTree = "<group>"; };
+		13BADD97264534F700E1A60B /* DayPlan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayPlan.swift; sourceTree = "<group>"; };
+		13BADD9A26454EE000E1A60B /* DayCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayCell.swift; sourceTree = "<group>"; };
+		13BADD9D26455B6500E1A60B /* FoodService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodService.swift; sourceTree = "<group>"; };
+		13BADDA126455C0F00E1A60B /* FoodAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodAPI.swift; sourceTree = "<group>"; };
+		13BADDA92646C0F200E1A60B /* DayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayViewController.swift; sourceTree = "<group>"; };
+		13BADDAC2646C13A00E1A60B /* DayViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayViewModel.swift; sourceTree = "<group>"; };
+		13BADDAF2646C17500E1A60B /* DayAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayAssembly.swift; sourceTree = "<group>"; };
+		13BADDB22646C46C00E1A60B /* FoodRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodRouter.swift; sourceTree = "<group>"; };
+		13BADDB52647DA3A00E1A60B /* UserFoodResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserFoodResponse.swift; sourceTree = "<group>"; };
+		13BADDB82647DA8000E1A60B /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		13BADDBB2647DE8100E1A60B /* FoodCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCell.swift; sourceTree = "<group>"; };
+		13BADDBE26480A6A00E1A60B /* AddDayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDayViewController.swift; sourceTree = "<group>"; };
+		13BADDC32648151C00E1A60B /* AddDayViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDayViewModel.swift; sourceTree = "<group>"; };
+		13BADDC62648158900E1A60B /* AddDayAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDayAssembly.swift; sourceTree = "<group>"; };
+		13BADDCA264815E500E1A60B /* DayRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayRouter.swift; sourceTree = "<group>"; };
 		70F9BD6001829FFD7CB3A896 /* Pods-TrainApplication.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrainApplication.release.xcconfig"; path = "Target Support Files/Pods-TrainApplication/Pods-TrainApplication.release.xcconfig"; sourceTree = "<group>"; };
 		A08CC8702E4E8ECCF7596599 /* Pods_TrainApplication.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrainApplication.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8C88400044AFB2D9A79837F /* Pods-TrainApplication.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrainApplication.debug.xcconfig"; path = "Target Support Files/Pods-TrainApplication/Pods-TrainApplication.debug.xcconfig"; sourceTree = "<group>"; };
@@ -193,6 +227,10 @@
 			isa = PBXGroup;
 			children = (
 				13BADD342642F74500E1A60B /* User.swift */,
+				13BADD942645347E00E1A60B /* WeekPlan.swift */,
+				13BADD97264534F700E1A60B /* DayPlan.swift */,
+				13BADDB52647DA3A00E1A60B /* UserFoodResponse.swift */,
+				13BADDB82647DA8000E1A60B /* Food.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -245,8 +283,11 @@
 		13BADD61264402DF00E1A60B /* FoodModule */ = {
 			isa = PBXGroup;
 			children = (
-				13BADD682644033200E1A60B /* FoodViewController.swift */,
-				13BADD8026440E1C00E1A60B /* FoodAssembly.swift */,
+				13BADDC126480A6F00E1A60B /* AddDay */,
+				13BADDA72646C03900E1A60B /* Day */,
+				13BADDA52646C01B00E1A60B /* DayOfTheWeeks */,
+				13BADD9D26455B6500E1A60B /* FoodService.swift */,
+				13BADDA126455C0F00E1A60B /* FoodAPI.swift */,
 			);
 			path = FoodModule;
 			sourceTree = "<group>";
@@ -267,6 +308,40 @@
 				13BADD792644054600E1A60B /* TabBarAssemble.swift */,
 			);
 			path = TabBar;
+			sourceTree = "<group>";
+		};
+		13BADDA52646C01B00E1A60B /* DayOfTheWeeks */ = {
+			isa = PBXGroup;
+			children = (
+				13BADD682644033200E1A60B /* FoodViewController.swift */,
+				13BADD8026440E1C00E1A60B /* FoodAssembly.swift */,
+				13BADD91264532FB00E1A60B /* FoodViewModel.swift */,
+				13BADD9A26454EE000E1A60B /* DayCell.swift */,
+				13BADDB22646C46C00E1A60B /* FoodRouter.swift */,
+			);
+			path = DayOfTheWeeks;
+			sourceTree = "<group>";
+		};
+		13BADDA72646C03900E1A60B /* Day */ = {
+			isa = PBXGroup;
+			children = (
+				13BADDA92646C0F200E1A60B /* DayViewController.swift */,
+				13BADDAC2646C13A00E1A60B /* DayViewModel.swift */,
+				13BADDAF2646C17500E1A60B /* DayAssembly.swift */,
+				13BADDBB2647DE8100E1A60B /* FoodCell.swift */,
+				13BADDCA264815E500E1A60B /* DayRouter.swift */,
+			);
+			path = Day;
+			sourceTree = "<group>";
+		};
+		13BADDC126480A6F00E1A60B /* AddDay */ = {
+			isa = PBXGroup;
+			children = (
+				13BADDBE26480A6A00E1A60B /* AddDayViewController.swift */,
+				13BADDC32648151C00E1A60B /* AddDayViewModel.swift */,
+				13BADDC62648158900E1A60B /* AddDayAssembly.swift */,
+			);
+			path = AddDay;
 			sourceTree = "<group>";
 		};
 		39A7AC6A04EA3CB167500C3A /* Frameworks */ = {
@@ -399,7 +474,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13BADDB02646C17500E1A60B /* DayAssembly.swift in Sources */,
 				13BADD4F2643E93900E1A60B /* OptionalViewModel.swift in Sources */,
+				13BADD98264534F700E1A60B /* DayPlan.swift in Sources */,
+				13BADDCB264815E500E1A60B /* DayRouter.swift in Sources */,
+				13BADDAD2646C13A00E1A60B /* DayViewModel.swift in Sources */,
 				13BADD76264404A400E1A60B /* GlobalColors.swift in Sources */,
 				13BADCEE2642B61B00E1A60B /* LoginViewController.swift in Sources */,
 				13BADD2D2642F61600E1A60B /* PasswordAssembly.swift in Sources */,
@@ -411,29 +490,42 @@
 				13BADD7E26440DEC00E1A60B /* ExerciseAssebly.swift in Sources */,
 				13BADCF62642CB0B00E1A60B /* LoginAssembly.swift in Sources */,
 				13BADD2A2642F56A00E1A60B /* PasswordRouter.swift in Sources */,
+				13BADD9E26455B6500E1A60B /* FoodService.swift in Sources */,
 				13BADD5B2643E96B00E1A60B /* OptionalAssembly.swift in Sources */,
+				13BADDBC2647DE8100E1A60B /* FoodCell.swift in Sources */,
 				13BADD3E2643077B00E1A60B /* RegisterRouter.swift in Sources */,
 				13BADCFB2642CB9E00E1A60B /* LoginViewModel.swift in Sources */,
 				13BADD572643E95600E1A60B /* OptionalRouter.swift in Sources */,
 				13BADD4726431B9E00E1A60B /* RegisterService.swift in Sources */,
 				13BADD542643E94B00E1A60B /* OptionalViewController.swift in Sources */,
 				13BADD3A2643076D00E1A60B /* RegisterViewController.swift in Sources */,
+				13BADDB62647DA3A00E1A60B /* UserFoodResponse.swift in Sources */,
 				13BADD352642F74500E1A60B /* User.swift in Sources */,
 				13BADD642644032100E1A60B /* UserViewController.swift in Sources */,
+				13BADDC42648151C00E1A60B /* AddDayViewModel.swift in Sources */,
 				13BADD8C26446C4600E1A60B /* UserService.swift in Sources */,
 				13BADD412643078600E1A60B /* RegisterViewModel.swift in Sources */,
+				13BADDB32646C46C00E1A60B /* FoodRouter.swift in Sources */,
+				13BADDBF26480A6B00E1A60B /* AddDayViewController.swift in Sources */,
 				13BADCCF2642B02000E1A60B /* AppDelegate.swift in Sources */,
+				13BADD9B26454EE000E1A60B /* DayCell.swift in Sources */,
+				13BADD952645347E00E1A60B /* WeekPlan.swift in Sources */,
 				13BADCF22642C81800E1A60B /* Button + Extention.swift in Sources */,
 				13BADCFE2642CBDC00E1A60B /* LoginRouter.swift in Sources */,
 				13BADCD12642B02000E1A60B /* SceneDelegate.swift in Sources */,
 				13BADD1C2642D66400E1A60B /* AuthAPI.swift in Sources */,
+				13BADDA226455C0F00E1A60B /* FoodAPI.swift in Sources */,
 				13BADD6D2644034000E1A60B /* ExerciseViewController.swift in Sources */,
 				13BADD712644042400E1A60B /* MainTabBar.swift in Sources */,
+				13BADDAA2646C0F200E1A60B /* DayViewController.swift in Sources */,
 				13BADD692644033200E1A60B /* FoodViewController.swift in Sources */,
 				13BADD022642CC2600E1A60B /* AuthService.swift in Sources */,
+				13BADDB92647DA8000E1A60B /* Food.swift in Sources */,
+				13BADD92264532FC00E1A60B /* FoodViewModel.swift in Sources */,
 				13BADD8626440E5D00E1A60B /* UserAssembly.swift in Sources */,
 				13BADD442643079600E1A60B /* RegisterAssembly.swift in Sources */,
 				13BADD5E2643FD3700E1A60B /* TextField + Extention.swift in Sources */,
+				13BADDC72648158900E1A60B /* AddDayAssembly.swift in Sources */,
 				13BADD89264442F800E1A60B /* UserViewModel.swift in Sources */,
 				13BADD272642F45A00E1A60B /* PasswordViewModel.swift in Sources */,
 			);

@@ -199,6 +199,24 @@ class UserViewController: UIViewController {
                 guard let self = self else { return }
                 self.showAlert(.updateLogin)
             }.disposed(by: bag)
+        
+        editAgeButton.rx.tap
+            .bind { [weak self] in
+                guard let self = self else { return }
+                self.showAlert(.updateAge)
+            }.disposed(by: bag)
+        
+        editWeightButton.rx.tap
+            .bind { [weak self] in
+                guard let self = self else { return }
+                self.showAlert(.updateWeight)
+            }.disposed(by: bag)
+        
+        editHeightButton.rx.tap
+            .bind { [weak self] in
+                guard let self = self else { return }
+                self.showAlert(.updateHeight)
+            }.disposed(by: bag)
     }
 }
 
@@ -233,4 +251,7 @@ extension UserViewController {
 enum UpdateType {
     case updateName
     case updateLogin
+    case updateAge
+    case updateWeight
+    case updateHeight
 }

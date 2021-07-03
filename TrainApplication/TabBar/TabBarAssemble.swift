@@ -35,14 +35,13 @@ class TabBarAssemble {
     }
     
     private func prepareFoodViewController() -> UINavigationController {
-        let vc = FoodAssembly().build()
+        let vc = FoodAssembly().build(userId: userId)
         let tabBarItem = UITabBarItem(title: "Food",
                                       image: UIImage(named: "food"),
                                       tag: 0)
         vc.tabBarItem = tabBarItem
         
         let navigationVC = UINavigationController(rootViewController: vc)
-        navigationVC.navigationBar.isHidden = true
         return navigationVC
     }
     
